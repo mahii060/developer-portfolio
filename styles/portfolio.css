@@ -84,13 +84,13 @@ main {
 .about {
     margin-top: 130px;
     padding: 130px 150px;
+    text-align: center;
 }
 
 .section-title {
     color: #181818;
     font-weight: 700;
     font-size: 35px;
-    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -100,4 +100,22 @@ main {
     font-size: 18px;
     line-height: 30px;
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-title {
+    color: #757575;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about-info .info-description {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
 }
