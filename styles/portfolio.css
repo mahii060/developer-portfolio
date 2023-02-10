@@ -157,3 +157,73 @@ main {
 }
 
 /* Resume styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* contact styles */
+.contact {
+    display: flex;
+    background: #FFF8F3;
+    gap: 120px;
+    padding: 130px 200px;
+}
+
+.contact a {
+    padding: 0 24px;
+    text-decoration: none;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact input,
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
