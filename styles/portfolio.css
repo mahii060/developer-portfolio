@@ -73,6 +73,10 @@ nav li {
 }
 
 /* main section */
+section {
+    margin-top: 130px;
+}
+
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -82,7 +86,6 @@ main {
 /* about section styles */
 .about {
     background: #FFF8F3;
-    margin-top: 130px;
     margin-bottom: 30px;
     padding: 130px 150px;
     text-align: center;
@@ -123,9 +126,6 @@ main {
 }
 
 /* what-i-do styles */
-.what-i-do {
-    margin-top: 130px;
-}
 
 .skill-container {
     display: flex;
